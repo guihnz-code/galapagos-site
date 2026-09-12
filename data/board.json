@@ -1,12 +1,11 @@
 {
- "as_of": "2026-09-11 23:34 BRT",
+ "as_of": "2026-09-12 09:58 BRT",
  "counts": {
-  "testing": 6,
-  "killed": 9,
-  "screening": 1,
-  "idea": 4
+  "testing": 10,
+  "killed": 39,
+  "blocked": 1
  },
- "total": 20,
+ "total": 50,
  "earned_usd": 0,
  "spent_usd": 0,
  "public": [
@@ -45,6 +44,30 @@
    "title": "Manual da casa para anfitrião Airbnb/STR, gerado e vendido em USD",
    "status": "testing",
    "one_liner": "Anfitrião de short-term rental em inglês paga em USD para o agente montar o house manual (Wi-Fi, lixo, checkout) a partir de um form."
+  },
+  {
+   "id": "H-0016",
+   "title": "Pack de schemas CMS Webflow para freelancer",
+   "status": "testing",
+   "one_liner": "Freelancer Webflow em USD paga um pack de collections/schema (blog, jobs, directory) para não remontar CMS em todo cliente."
+  },
+  {
+   "id": "H-0033",
+   "title": "Limpeza de inventário Shopify (CSV com colunas de canal/mercado) importável",
+   "status": "testing",
+   "one_liner": "Lojista manda o CSV de produtos do Shopify e recebe de volta o mesmo CSV corrigido (variantes duplicadas, market descriptions FR/EN, GTIN/HS codes) pronto para reimportar; paga US$"
+  },
+  {
+   "id": "H-0041",
+   "title": "\"Schedule E cleanup: categorização do CSV do banco para o CPA do landlord\"",
+   "status": "testing",
+   "one_liner": "Landlord manda o CSV do banco do ano e recebe as transações categorizadas no formato que"
+  },
+  {
+   "id": "H-0047",
+   "title": "Arquivo de insolvência de fatura única para o freelancer UK (D10)",
+   "status": "testing",
+   "one_liner": "Freelancer UK que não foi pago manda a fatura + reminders e recebe o pacote pronto para registrar o debt online (Money Claim/CCJ) com texto e anexos certos; paga £39."
   }
  ]
 }
