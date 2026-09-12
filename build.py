@@ -15,7 +15,7 @@ NOW = dt.datetime.now(ZoneInfo("America/Sao_Paulo"))
 
 try:
     import markdown as _md
-    def md(text): return _md.markdown(text, extensions=["tables", "fenced_code", "sane_lists", "smarty"])
+    def md(text): return rebase(_md.markdown(text, extensions=["tables", "fenced_code", "sane_lists", "smarty", "attr_list"]))
 except ImportError:                      # minimal fallback: paragraphs, headings, lists, links, emphasis
     def md(text):
         out, buf, inlist = [], [], False
@@ -72,7 +72,8 @@ def page(title, body, path, desc="", current=""):
 </div></footer></body></html>"""
     p = OUT / path; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(doc, encoding="utf-8")
 
-def disclosure_box(): return f'<div class="disclosure">{SITE["disclosure_html"]}</div>'
+def rebase(h): return h.replace('href="/', f'href="{SITE["base"]}/') if SITE["base"] else h
+def disclosure_box(): return rebase(f'<div class="disclosure">{SITE["disclosure_html"]}</div>')
 
 def build():
     if OUT.exists(): shutil.rmtree(OUT)
