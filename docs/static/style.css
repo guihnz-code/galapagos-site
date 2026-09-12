@@ -1,0 +1,64 @@
+/* Galápagos — paper, ink, water. Tokens derived from the Beagle watercolor. */
+:root{
+  --paper:#f4ecda; --paper-2:#ece2c9; --paper-3:#e3d7ba;
+  --ink:#2b2622; --ink-2:#5a524a; --ink-3:#857a6e;
+  --water:#4f8f89; --water-2:#7fb8b0; --water-3:#d6e8e4;
+  --wood:#a3703e; --wood-2:#c8925c;
+  --rule:#d9ccae;
+  --serif:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --max:44rem;
+}
+*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 var(--sans);-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(ellipse at 20% 0%,rgba(255,255,255,.35),transparent 55%),radial-gradient(ellipse at 90% 100%,rgba(79,143,137,.10),transparent 50%)}
+a{color:var(--water);text-decoration:underline;text-decoration-color:var(--water-2);text-underline-offset:.15em}
+a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-.01em;line-height:1.15;color:var(--ink);margin:0 0 .5rem}
+h1{font-size:clamp(2rem,5.5vw,3rem)} h2{font-size:1.6rem;margin-top:2.4rem} h3{font-size:1.2rem;margin-top:1.6rem}
+p,ul,ol{margin:0 0 1rem} li{margin:.25rem 0}
+code{font-family:var(--mono);font-size:.9em;background:var(--paper-2);padding:.1em .35em;border-radius:.25em}
+pre{background:var(--paper-2);padding:1rem;border-radius:.5rem;overflow-x:auto}
+pre code{background:none;padding:0}
+blockquote{margin:1.2rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--wood-2);color:var(--ink-2);font-family:var(--serif);font-size:1.1rem}
+hr{border:0;border-top:1px solid var(--rule);margin:2.4rem 0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.95rem}
+th,td{text-align:left;padding:.5rem .6rem;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:600;color:var(--ink-2);font-size:.85rem;letter-spacing:.04em;text-transform:uppercase}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 1.25rem}
+.site-head{border-bottom:1px solid var(--rule);background:rgba(244,236,218,.85);backdrop-filter:blur(6px);position:sticky;top:0;z-index:5}
+.site-head .wrap{display:flex;align-items:center;gap:1rem;padding-block:.7rem;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--ink);font-family:var(--serif);font-size:1.25rem}
+.brand img{width:38px;height:38px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--paper),0 0 0 3px var(--rule)}
+.brand small{display:block;font-family:var(--sans);font-size:.72rem;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase}
+nav.main{margin-left:auto;display:flex;gap:1.1rem;font-size:.92rem}
+nav.main a{text-decoration:none;color:var(--ink-2)} nav.main a[aria-current]{color:var(--ink);border-bottom:2px solid var(--wood)}
+main{padding-block:2.8rem 3.5rem}
+.eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--water);margin-bottom:.6rem}
+.lede{font-family:var(--serif);font-size:1.35rem;line-height:1.4;color:var(--ink-2);margin:0 0 1.6rem}
+.card{background:rgba(255,255,255,.45);border:1px solid var(--rule);border-radius:.75rem;padding:1.2rem 1.4rem;margin:1rem 0}
+.card h3{margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:.8rem;margin:1.2rem 0}
+.stat{background:rgba(255,255,255,.45);border:1px solid var(--rule);border-radius:.75rem;padding:1rem 1.1rem}
+.stat b{display:block;font-family:var(--serif);font-size:2rem;line-height:1;color:var(--ink)}
+.stat span{font-size:.8rem;color:var(--ink-3);letter-spacing:.05em;text-transform:uppercase}
+.stat.alive b{color:var(--water)} .stat.killed b{color:var(--wood)}
+.price{display:inline-flex;align-items:baseline;gap:.4rem;font-family:var(--serif);font-size:2rem;color:var(--ink);margin:.4rem 0 1rem}
+.price small{font-family:var(--sans);font-size:.85rem;color:var(--ink-3)}
+.cta{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;padding:.75rem 1.3rem;border-radius:.5rem;font-weight:600;font-size:.98rem}
+.cta:hover{background:var(--water);color:#fff}
+.cta.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink-3)}
+.meta{font-size:.85rem;color:var(--ink-3);margin:.4rem 0 1.6rem}
+.badge{display:inline-block;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;padding:.15em .55em;border-radius:.3em;border:1px solid var(--rule);color:var(--ink-2);background:var(--paper-2)}
+.badge.testing{color:var(--water);border-color:var(--water-2);background:var(--water-3)}
+.badge.alive{color:#fff;background:var(--water);border-color:var(--water)}
+.badge.killed{color:var(--wood);border-color:var(--wood-2)}
+.disclosure{border:1px solid var(--rule);border-left:4px solid var(--water-2);border-radius:.5rem;padding:.9rem 1.1rem;background:rgba(255,255,255,.4);font-size:.92rem;color:var(--ink-2);margin:2rem 0}
+.list{list-style:none;padding:0} .list li{padding:.8rem 0;border-bottom:1px solid var(--rule)} .list li:last-child{border:0}
+.list .t{font-family:var(--serif);font-size:1.15rem} .list .d{color:var(--ink-2);font-size:.95rem}
+.site-foot{border-top:1px solid var(--rule);padding-block:1.8rem 2.4rem;font-size:.85rem;color:var(--ink-3)}
+.site-foot .wrap{display:flex;flex-wrap:wrap;gap:.6rem 1.6rem;justify-content:space-between}
+.site-foot a{color:var(--ink-2)}
+@media (max-width:560px){nav.main{margin-left:0;width:100%;justify-content:flex-start;flex-wrap:wrap} .lede{font-size:1.15rem}}

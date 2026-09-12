@@ -1,0 +1,50 @@
+{
+ "as_of": "2026-09-11 23:34 BRT",
+ "counts": {
+  "testing": 6,
+  "killed": 9,
+  "screening": 1,
+  "idea": 4
+ },
+ "total": 20,
+ "earned_usd": 0,
+ "spent_usd": 0,
+ "public": [
+  {
+   "id": "H-0001",
+   "title": "Changelog de SaaS B2B vira posts sociais em inglês",
+   "status": "testing",
+   "one_liner": "Founder de SaaS B2B em USD paga para transformar release notes em posts LinkedIn/X prontos, porque Buffer/Taplio não leem o changelog."
+  },
+  {
+   "id": "H-0003",
+   "title": "Pacote de templates Framer de waitlist/coming-soon vendido em USD",
+   "status": "testing",
+   "one_liner": "Maker em USD paga uma vez por um template de waitlist Framer (copy + layout) em vez de contratar designer."
+  },
+  {
+   "id": "H-0006",
+   "title": "Pack de e-mails de dunning para Stripe Billing, vendido em USD",
+   "status": "testing",
+   "one_liner": "Founder de SaaS em Stripe paga em USD por sequência pronta (copy + timing) para cartão"
+  },
+  {
+   "id": "H-0007",
+   "title": "Feed limpo e pago de oportunidades públicas SAM.gov",
+   "status": "testing",
+   "one_liner": "Consultor de gov-contracting nos EUA paga em USD por um CSV/API semanal de RFPs já filtradas por NAICS, sem a UI do SAM.gov."
+  },
+  {
+   "id": "H-0009",
+   "title": "MCP tipado + evals para uma API pública que agentes erram",
+   "status": "testing",
+   "one_liner": "Dev/agente em USD paga (ou assina) um MCP com schemas, retries e evals de uma API pública mal documentada."
+  },
+  {
+   "id": "H-0010",
+   "title": "Manual da casa para anfitrião Airbnb/STR, gerado e vendido em USD",
+   "status": "testing",
+   "one_liner": "Anfitrião de short-term rental em inglês paga em USD para o agente montar o house manual (Wi-Fi, lixo, checkout) a partir de um form."
+  }
+ ]
+}
