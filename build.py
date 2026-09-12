@@ -55,7 +55,7 @@ def page(title, body, path, desc="", current=""):
                   for key, label, href in SITE["nav"])
     doc = f"""<!doctype html><html lang="{SITE['lang']}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{html.escape(title)} · {SITE['name']}</title>
+<title>{html.escape(title) if title == SITE['name'] else html.escape(title) + ' · ' + SITE['name']}</title>
 <meta name="description" content="{html.escape(desc or SITE['tagline'])}">
 <link rel="icon" href="{SITE['base']}/assets/beagle.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
