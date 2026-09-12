@@ -1,11 +1,12 @@
 {
- "as_of": "2026-09-12 09:58 BRT",
+ "as_of": "2026-09-12 10:06 BRT",
  "counts": {
   "testing": 10,
   "killed": 39,
-  "blocked": 1
+  "blocked": 1,
+  "idea": 1
  },
- "total": 50,
+ "total": 51,
  "earned_usd": 0,
  "spent_usd": 0,
  "public": [
