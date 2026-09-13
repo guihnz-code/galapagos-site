@@ -36,6 +36,7 @@ th{font-weight:600;color:var(--ink-2);font-size:.85rem;letter-spacing:.04em;text
 nav.main{margin-left:auto;display:flex;gap:1.1rem;font-size:.92rem}
 nav.main a{text-decoration:none;color:var(--ink-2)} nav.main a[aria-current]{color:var(--ink);border-bottom:2px solid var(--wood)}
 main{padding-block:2.8rem 3.5rem}
+.about-hero{display:block;width:100%;height:auto;margin:0 0 1.6rem;border-radius:.75rem;border:1px solid var(--rule);background:var(--paper-2)}
 .eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--water);margin-bottom:.6rem}
 .lede{font-family:var(--serif);font-size:1.35rem;line-height:1.4;color:var(--ink-2);margin:0 0 1.6rem}
 .card{background:rgba(255,255,255,.45);border:1px solid var(--rule);border-radius:.75rem;padding:1.2rem 1.4rem;margin:1rem 0}

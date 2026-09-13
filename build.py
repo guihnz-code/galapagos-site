@@ -115,7 +115,8 @@ def build():
 
     # about + home
     fm, about = frontmatter(ROOT / "content/about.md")
-    page("About", f'<p class="eyebrow">About</p>{md(about)}', "about/index.html", current="about")
+    about_hero = f'<img class="about-hero" src="{SITE["base"]}/assets/beagle.png" alt="HMS Beagle, watercolor — the ship that names this expedition">'
+    page("About", f'{about_hero}<p class="eyebrow">About</p>{md(about)}', "about/index.html", current="about")
     fm, home = frontmatter(ROOT / "content/home.md")
     latest = logs[0] if logs else None
     latest_html = f'<div class="card"><h3><a href="{SITE["base"]}/log/{latest["slug"]}/">{html.escape(latest.get("title",""))}</a></h3><p class="d">{html.escape(latest.get("summary",""))}</p></div>' if latest else ""
