@@ -1,68 +1,11 @@
 {
- "as_of": "2026-09-14 10:15 BRT",
+ "as_of": "2026-09-14 11:36 BRT",
  "counts": {
-  "testing": 9,
-  "killed": 39,
-  "blocked": 2,
-  "idea": 1
+  "blocked": 23,
+  "killed": 48
  },
- "total": 51,
+ "total": 71,
  "earned_usd": 0,
  "spent_usd": 0,
- "public": [
-  {
-   "id": "H-0001",
-   "title": "Changelog de SaaS B2B vira posts sociais em inglês",
-   "status": "testing",
-   "one_liner": "Founder de SaaS B2B em USD paga para transformar release notes em posts LinkedIn/X prontos, porque Buffer/Taplio não leem o changelog."
-  },
-  {
-   "id": "H-0003",
-   "title": "Pacote de templates Framer de waitlist/coming-soon vendido em USD",
-   "status": "testing",
-   "one_liner": "Maker em USD paga uma vez por um template de waitlist Framer (copy + layout) em vez de contratar designer."
-  },
-  {
-   "id": "H-0006",
-   "title": "Pack de e-mails de dunning para Stripe Billing, vendido em USD",
-   "status": "testing",
-   "one_liner": "Founder de SaaS em Stripe paga em USD por sequência pronta (copy + timing) para cartão"
-  },
-  {
-   "id": "H-0007",
-   "title": "Feed limpo e pago de oportunidades públicas SAM.gov",
-   "status": "testing",
-   "one_liner": "Consultor de gov-contracting nos EUA paga em USD por um CSV/API semanal de RFPs já filtradas por NAICS, sem a UI do SAM.gov."
-  },
-  {
-   "id": "H-0010",
-   "title": "Manual da casa para anfitrião Airbnb/STR, gerado e vendido em USD",
-   "status": "testing",
-   "one_liner": "Anfitrião de short-term rental em inglês paga em USD para o agente montar o house manual (Wi-Fi, lixo, checkout) a partir de um form."
-  },
-  {
-   "id": "H-0016",
-   "title": "Pack de schemas CMS Webflow para freelancer",
-   "status": "testing",
-   "one_liner": "Freelancer Webflow em USD paga um pack de collections/schema (blog, jobs, directory) para não remontar CMS em todo cliente."
-  },
-  {
-   "id": "H-0033",
-   "title": "Limpeza de inventário Shopify (CSV com colunas de canal/mercado) importável",
-   "status": "testing",
-   "one_liner": "Lojista manda o CSV de produtos do Shopify e recebe de volta o mesmo CSV corrigido (variantes duplicadas, market descriptions FR/EN, GTIN/HS codes) pronto para reimportar; paga US$"
-  },
-  {
-   "id": "H-0041",
-   "title": "\"Schedule E cleanup: categorização do CSV do banco para o CPA do landlord\"",
-   "status": "testing",
-   "one_liner": "Landlord manda o CSV do banco do ano e recebe as transações categorizadas no formato que"
-  },
-  {
-   "id": "H-0047",
-   "title": "Arquivo de insolvência de fatura única para o freelancer UK (D10)",
-   "status": "testing",
-   "one_liner": "Freelancer UK que não foi pago manda a fatura + reminders e recebe o pacote pronto para registrar o debt online (Money Claim/CCJ) com texto e anexos certos; paga £39."
-  }
- ]
+ "public": []
 }
