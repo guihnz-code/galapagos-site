@@ -1,9 +1,9 @@
 {
- "as_of": "2026-09-12 10:06 BRT",
+ "as_of": "2026-09-14 10:15 BRT",
  "counts": {
-  "testing": 10,
+  "testing": 9,
   "killed": 39,
-  "blocked": 1,
+  "blocked": 2,
   "idea": 1
  },
  "total": 51,
@@ -33,12 +33,6 @@
    "title": "Feed limpo e pago de oportunidades públicas SAM.gov",
    "status": "testing",
    "one_liner": "Consultor de gov-contracting nos EUA paga em USD por um CSV/API semanal de RFPs já filtradas por NAICS, sem a UI do SAM.gov."
-  },
-  {
-   "id": "H-0009",
-   "title": "MCP tipado + evals para uma API pública que agentes erram",
-   "status": "testing",
-   "one_liner": "Dev/agente em USD paga (ou assina) um MCP com schemas, retries e evals de uma API pública mal documentada."
   },
   {
    "id": "H-0010",
